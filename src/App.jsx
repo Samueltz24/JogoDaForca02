@@ -10,7 +10,7 @@ function App() {
 
   return (
     
-     <BrowserRouter>
+     <BrowserRouter basename="/JogoDaForca02">
      <Nav/>
       <Routes>
         <Route path='/' element={<Card/>}/>
