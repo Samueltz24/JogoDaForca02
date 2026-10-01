@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Climate+Crisis:YEAR@1979&family=Story+Script&family=Ultra&display=swap');
+
+:root{
+  --fonte01: "Black Ops One", system-ui;
+  --fonte02: "Ultra", serif;
+  --fonte03: "Climate Crisis", sans-serif;
+  --fonte04: "Story Script", sans-serif;
+}
+:root{
+  --cor1: #239C0C;
+  --cor2: #609C0C;
+  --cor3: #0C9C2A;
+  --cor4: #9C9B0C;
+  --cor5: #0C9C5A;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+img{
+  cursor: pointer;
+}
+.opaa{
+  margin: 40px 2% 10px 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.butto{
+  flex: 10%;
+  cursor: pointer;
+  margin: 5px 0;
+  color: #000;
+  background: var(--cor4);
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 1px solid;
+}
+#res{
+  padding-top: 60px;
+}
+.margem{
+  padding-top: 80px;
+}
+.jogoforca{
+  text-align: center;
+}
+.oppa{
+  margin-top: 100px;
+}
+.dicaa{
+  background: var(--cor5);
+  width: 110px;
+  border: 1px solid  #000;
+  color: #fff;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: var(--fonte02);
+}
+.errado{
+  background:  var(--cor5);
+}
+.certo{
+  background: var(--cor3);
+}
+.contagem{
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ca1{
+  border: 1px solid #000;
+  padding: 1px 20px;
+  margin-left: 1%;
+  border-radius: 5px 2px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.ace{
+  background: var(--cor2);
+}
+.err{
+  background: var(--cor3);
+}
+.bu{
+  margin-top: 10px;
+  background: var(--cor5);
+  border-radius: 5px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: 3px 2%;
+}
+.dicas{
+  margin: 5px 3%;
+  font-family: var(--fonte04);
+}
+.largo{
+  margin: 15px 5%;
+  font-family: var(--fonte01);
+}
+.nomes{
+  margin: 5px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.azul{
+  flex: 50%;
+  background: var(--cor2);
+  text-align: center;
+}
+.vermelho{
+  background: var(--cor3);
+  flex: 30%;
+
+}
+.marge{
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+.cart{
+  margin-left: 1%;
+  border-radius: 5px;
+  padding: 0 1%;
+  color: #fff;
+  font-family: var(--fonte04);
+}
+#voltar{
+    display: none;
+}
+.butao{
+  margin: 0;
+  padding: 0;
+  border: 1px solid ;
+}
+#marca{
+  background: var(--cor5);
+  padding-bottom: 47px;
+}
+#luso{
+  display: none;
+}
+@media (min-width: 1025px){
+  #marca{
+    padding-top: 35px;
+    padding-bottom: 143px;
+  }
+}

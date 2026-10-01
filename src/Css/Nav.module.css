@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Climate+Crisis:YEAR@1979&family=Story+Script&family=Ultra&display=swap');
+
+:root{
+  --fonte01: "Black Ops One", system-ui;
+  --fonte02: "Ultra", serif;
+  --fonte03: "Climate Crisis", sans-serif;
+  --fonte04: "Story Script", sans-serif;
+}
+:root{
+  --cor1: #559C96;
+  --cor2: #549C7D;
+  --cor3: #548A9C;
+  --cor4: #549C65;
+  --cor5: #54749C;
+}
+nav{
+    padding: 10px;
+    background: var(--cor1);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-family: var(--fonte02);
+}
+.card{
+    display: flex;
+    margin: 0 2%;
+    flex-wrap: wrap;
+}
+.filho1{
+    flex: 10%;
+}
+.filho2{
+    flex: 70%;
+}
+.filho3{
+    flex: 10%;
+}
+.filho4{
+    flex: 10%;
+}
+.sol{
+    display: none;
+}
+@media (min-width: 1025px){
+    .filho2{
+        text-align: center;
+        font-size: 25px;
+    }
+}

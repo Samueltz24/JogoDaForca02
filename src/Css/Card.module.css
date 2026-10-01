@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Climate+Crisis:YEAR@1979&family=Story+Script&family=Ultra&display=swap');
+
+:root{
+  --fonte01: "Black Ops One", system-ui;
+  --fonte02: "Ultra", serif;
+  --fonte03: "Climate Crisis", sans-serif;
+  --fonte04: "Story Script", sans-serif;
+}
+:root{
+  --cor1: #239C0C;
+  --cor2: #609C0C;
+  --cor3: #0C9C2A;
+  --cor4: #9C9B0C;
+  --cor5: #0C9C5A;
+}
+.pai{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1{
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 80px;
+}
+.carpri{
+    flex: 40%;
+    margin: 2%;
+    border-radius: 35px;
+    padding-top: 1px;
+}
+.img{
+     width: 100%;
+}
+.nome{
+    background: var(--cor2);
+    border-radius: 30px 30px 0 0 ;
+    padding: 80px 0;
+    text-align: center;
+    color: #fff;
+    font-family: var(--fonte01);
+    font-size: 25px;
+}
+.tex{
+    background: var(--cor1);
+    padding: 5px 0;
+    border: 1px solid var(--cor1);
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: var(--fonte01);
+    font-size: 20px;
+}
+.tex:hover{
+    background: var(--cor3);
+}
+.a{
+    text-decoration: none;
+    color: #fff;
+}
+#ma1{
+    background: red;
+    padding: 522px;
+}
+@media (min-width: 1025px){
+    .carpri{
+        flex: 20%;
+    }
+}
